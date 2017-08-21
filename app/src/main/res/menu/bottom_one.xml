@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    android:onClick=""   -->
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+      <item
+       android:title="@string/one"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+
+    <item
+        android:title="@string/two"
+        android:id="@+id/me"
+        android:icon="@drawable/ic_perm_identity_black_24dp"/>
+
+    <item
+        android:title="@string/three"
+        android:id="@+id/favor"
+        android:icon="@drawable/ic_track_changes_black_24dp"/>
+
+
+    <item
+        android:title="@string/three"
+        android:icon="@drawable/ic_track_changes_black_24dp"/>
+
+    <item
+        android:title="@string/one"
+
+        android:icon="@drawable/ic_home_black_24dp"/>
+
+
+
+</menu>
+
