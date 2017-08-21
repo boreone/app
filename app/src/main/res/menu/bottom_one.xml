@@ -8,27 +8,28 @@
 
       <item
        android:title="@string/one"
-        android:id="@+id/home"
+        android:id="@+id/one"
         android:icon="@drawable/ic_home_black_24dp"/>
 
     <item
         android:title="@string/two"
-        android:id="@+id/me"
+        android:id="@+id/two"
         android:icon="@drawable/ic_perm_identity_black_24dp"/>
 
     <item
         android:title="@string/three"
-        android:id="@+id/favor"
+        android:id="@+id/three"
         android:icon="@drawable/ic_track_changes_black_24dp"/>
 
 
     <item
-        android:title="@string/three"
+        android:title="@string/four"
+        android:id="@+id/four"
         android:icon="@drawable/ic_track_changes_black_24dp"/>
 
     <item
-        android:title="@string/one"
-
+        android:title="@string/five"
+        android:id="@+id/five"
         android:icon="@drawable/ic_home_black_24dp"/>
 
 

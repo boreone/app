@@ -2,6 +2,8 @@
     <string name="app_name">Photograph</string>
     <string name="action_settings">Settings</string>
     <string name="one">首页</string>
-    <string name="two">我的</string>
-    <string name="three">分类</string>
+    <string name="two">优选</string>
+    <string name="three">相册</string>
+    <string name="four">购物车</string>
+    <string name="five">我</string>
 </resources>

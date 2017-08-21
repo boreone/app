@@ -7,25 +7,8 @@
 
     >
 
-    <android.support.design.widget.BottomNavigationView
+    <include
         android:id="@+id/bottom"
-        android:layout_width="0dp"
-        android:layout_height="42dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginStart="0dp"
-        android:animateLayoutChanges="false"
-        android:background="@color/white"
-        android:fitsSystemWindows="true"
-        android:splitMotionEvents="false"
-        android:theme="@style/AppTheme"
-        app:layout_constraintBottom_toBottomOf="parent"
-
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_one"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1">
-
-    </android.support.design.widget.BottomNavigationView>
+        layout="@layout/bottom_navigation_view"
+        />
 </android.support.constraint.ConstraintLayout>
