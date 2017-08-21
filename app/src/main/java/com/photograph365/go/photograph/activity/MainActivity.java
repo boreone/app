@@ -18,13 +18,18 @@ import static com.photograph365.go.photograph.utils.LogUtil.makeLogTag;
  */
 
 public class MainActivity  extends BaseActivity {
-    protected BottomNavigationView navigationView;
+
     private static final String TAG = makeLogTag(MainActivity.class);
 
     @Override
     protected void initView() {
         setContentView(R.layout.main_activity);
+        BottomNavigationViewHelper.removeShiftMode((BottomNavigationView)findViewById(R.id.bottom));//底部状态栏去动画
+        navigationView = (BottomNavigationView) findViewById(R.id.bottom);
     }
+
+
+
 
     @Override
     protected void updateNavigationBarState(){
