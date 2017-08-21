@@ -1,8 +1,7 @@
 package com.photograph365.go.photograph.utils;
 
 import android.util.Log;
-
-import com.photograph365.go.photograph.ConfigBuild;
+ 
 
 /**
  * Created by jake64 on 2017/8/21.
@@ -12,7 +11,7 @@ public class LogUtil {
     private static final String LOG_PREFIX = "Tag";
 
     private static final boolean LOGGING_ENABLED = ConfigBuild.DEBUG;
-    private static final int MAX_TAG_LENGTH = 23;//超过23个字符会报错
+    private static final int MAX_TAG_LENGTH = 23; 
     private static final int LOG_PREFIX_LENGTH = LOG_PREFIX.length();
 
     public static String makeLogTag(Class clazz) {
