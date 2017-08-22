@@ -13,8 +13,10 @@
     android:background="@color/white"
     android:fitsSystemWindows="true"
     android:splitMotionEvents="false"
-    android:theme="@style/AppTheme"
+
     app:layout_constraintBottom_toBottomOf="parent"
+
+    android:theme="@style/NavigationTheme"
 
     app:layout_constraintHorizontal_bias="0.504"
     app:layout_constraintLeft_toLeftOf="parent"

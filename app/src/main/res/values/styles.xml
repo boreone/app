@@ -8,8 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/background</item>
 
-        <!-- 去除动画，实际效果不大 -->
+    <!-- <item name="android:actionButtonStyle">@style/MyActionButtonStyle</item>   -->
+
+    <!-- 去除动画，实际效果不大 -->
         <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <!-- Bottom字体位置 -->
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <style name="MyActionButtonStyle" >
+        <item name="android:minWidth">20dp</item>
+        <item name="android:padding">0dp</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

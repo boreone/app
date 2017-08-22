@@ -1,8 +1,13 @@
 package com.photograph365.go.photograph.activity;
 
 import android.os.Handler;
+import android.support.design.internal.BottomNavigationMenuView;
 import android.support.design.widget.BottomNavigationView;
+import android.util.DisplayMetrics;
+import android.util.TypedValue;
 import android.view.KeyEvent;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.photograph365.go.photograph.R;
@@ -18,8 +23,7 @@ public class MainActivity  extends BaseActivity {
     @Override
     protected void initView() {
         setContentView(R.layout.main_activity);
-        BottomNavigationViewHelper.removeShiftMode((BottomNavigationView)findViewById(R.id.bottom));//底部状态栏去动画
-        navigationView = (BottomNavigationView) findViewById(R.id.bottom);
+
     }
 
     @Override

@@ -9,28 +9,28 @@
       <item
        android:title="@string/one"
         android:id="@+id/one"
-        android:icon="@drawable/ic_home_black_24dp"/>
+        android:icon="@drawable/home"/>
 
     <item
         android:title="@string/two"
         android:id="@+id/two"
-        android:icon="@drawable/ic_perm_identity_black_24dp"/>
+        android:icon="@drawable/flower"/>
 
     <item
         android:title="@string/three"
         android:id="@+id/three"
-        android:icon="@drawable/ic_track_changes_black_24dp"/>
+        android:icon="@drawable/camera"/>
 
 
     <item
         android:title="@string/four"
         android:id="@+id/four"
-        android:icon="@drawable/ic_track_changes_black_24dp"/>
+        android:icon="@drawable/shopping"/>
 
     <item
         android:title="@string/five"
         android:id="@+id/five"
-        android:icon="@drawable/ic_home_black_24dp"/>
+        android:icon="@drawable/user"/>
 
 
 
