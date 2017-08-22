@@ -9,7 +9,7 @@ import java.lang.reflect.Field;
 
 /**
  * Created by jake64 on 2017/4/7.
- * 底部状态栏去除动画
+ 
  */
 
 public class BottomNavigationViewHelper {
