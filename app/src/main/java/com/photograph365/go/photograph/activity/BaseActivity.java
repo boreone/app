@@ -36,7 +36,7 @@ public abstract class BaseActivity extends AppCompatActivity implements Complete
 
     }
     public void initNavigation(){
-        BottomNavigationViewHelper.removeShiftMode((BottomNavigationView)findViewById(R.id.bottom));//底部状态栏去动画
+        BottomNavigationViewHelper.removeShiftMode((BottomNavigationView)findViewById(R.id.bottom));//
         navigationView = (BottomNavigationView) findViewById(R.id.bottom);
      ///*
         BottomNavigationMenuView menuView = (BottomNavigationMenuView) navigationView.getChildAt(0);
